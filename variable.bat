@@ -32,10 +32,10 @@ echo Profil : %profil_exist%
 echo.
 echo ********************************
 echo.
-echo 1. Créer ou modifier la variable PROFILE
-echo 2. Modifier le nom du PC
-echo 3. Redémarrer le PC
-echo 4. Quitter
+echo  1. Créer ou modifier la variable PROFILE
+echo  2. Modifier le nom du PC
+echo  3. Redémarrer le PC
+echo  4. Quitter
 echo.
 set /p choix="Entrez le numéro de l'action souhaitée : "
 
@@ -54,7 +54,7 @@ REM Demander à l'utilisateur de saisir une valeur pour la variable PROFILE
 set /p profile_value="Entrez la valeur à assigner à la variable PROFILE : "
 
 REM Créer la variable d'environnement PROFILE avec la valeur saisie par l'utilisateur
-setx PROFILE "%profile_value%"
+setx PROFILE "%profile_value%" /M
 
 REM Vérifier si la variable PROFILE a été correctement définie
 if defined PROFILE (

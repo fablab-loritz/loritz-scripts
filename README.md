@@ -1,4 +1,4 @@
-# Scripts utils pour le service infirmatique de Loritz
+# Scripts utiles pour le service informatique de Loritz
 
 ![Logo Loritz](https://sites.ac-nancy-metz.fr/lyc-loritz/images/logo-loritz.png)
 
