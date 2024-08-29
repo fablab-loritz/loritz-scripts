@@ -114,12 +114,6 @@ echo.
 pause
 goto menu
 
-
-
-
-
-
-
 :redemarrer_pc
 echo.
 echo Vous allez redémarrer le PC. Voulez-vous continuer ? (O/N)
