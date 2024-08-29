@@ -1,0 +1,15 @@
+7-zip
+"arduino ide"
+blender
+edrawing
+freeplane
+ganttproject
+paint.net
+scilab
+scribus
+"sketchup pro"
+"ultimaker cura"
+"microsoft 365"
+vscodium.vscodium
+pov-ray
+sagagis
