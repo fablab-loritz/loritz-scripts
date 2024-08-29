@@ -12,11 +12,11 @@ if %errorLevel% == 0 (
     pause >nul
     exit
 )
-
 echo.
 echo Suppression de la source msstore de WinGet...
 winget source remove msstore
 timeout /t 3
+
 
 
 :menu
