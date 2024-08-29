@@ -39,7 +39,7 @@ echo.
 echo ********************************
 echo.
 echo  1. Mettre à jour tous les logiciels
-echo  2. Installer un packde logiciels
+echo  2. Installer un pack de logiciels
 echo  3. Redémarrer le PC
 echo  4. Quitter
 echo.
