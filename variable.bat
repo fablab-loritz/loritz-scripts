@@ -15,9 +15,9 @@ if %errorLevel% == 0 (
 
 :menu
 cls
-REM Vérifier si la variable d'environnement PROFILE est définie
-if defined PROFILE (
-    set "profil_exist=%PROFILE%"
+REM Vérifier si la variable d'environnement profile est définie
+if defined profile (
+    set "profil_exist=%profile%"
 ) else (
     set "profil_exist=non renseigné"
 )
@@ -32,7 +32,7 @@ echo Profil : %profil_exist%
 echo.
 echo ********************************
 echo.
-echo  1. Créer ou modifier la variable PROFILE
+echo  1. Créer ou modifier la variable profile
 echo  2. Modifier le nom du PC
 echo  3. Redémarrer le PC
 echo  4. Quitter
@@ -51,16 +51,16 @@ goto menu
 :creer_profile
 echo.
 REM Demander à l'utilisateur de saisir une valeur pour la variable PROFILE
-set /p profile_value="Entrez la valeur à assigner à la variable PROFILE : "
+set /p profile_value="Entrez la valeur à assigner à la variable profile : "
 
 REM Créer la variable d'environnement PROFILE avec la valeur saisie par l'utilisateur
-setx PROFILE "%profile_value%" /M
+setx profile "%profile_value%" /M
 
 REM Vérifier si la variable PROFILE a été correctement définie
-if defined PROFILE (
-    echo La variable d'environnement PROFILE a été créée avec la valeur : %PROFILE%
+if defined profile (
+    echo La variable d'environnement profile a été créée avec la valeur : %profile_value%
 ) else (
-    echo Erreur lors de la création de la variable PROFILE.
+    echo Erreur lors de la création de la variable profile.
 )
 pause
 goto menu
@@ -90,7 +90,5 @@ pause
 goto menu
 
 
-
-
-pause >nul
+:quitter
 exit
