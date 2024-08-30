@@ -21,9 +21,9 @@ timeout /t 3
 
 :menu
 cls
-REM Vérifier si la variable d'environnement profile est définie
-if defined profile (
-    set "profil_exist=%profile%"
+REM Vérifier si la variable d'environnement profil est définie
+if defined profil (
+    set "profil_exist=%profil%"
 ) else (
     set "profil_exist=non renseigné"
 )
