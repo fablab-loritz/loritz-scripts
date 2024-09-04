@@ -10,6 +10,12 @@ scribus
 "sketchup pro"
 "ultimaker cura"
 "microsoft 365"
+libreoffice
+sumatrapdf
 vscodium.vscodium
 pov-ray
 sagagis
+openboard
+videolan.vlc
+mozilla.firefox
+google.chrome

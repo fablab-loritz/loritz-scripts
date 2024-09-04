@@ -1,0 +1,14 @@
+7-zip
+freeplane
+paint.net
+scilab
+scribus
+"microsoft 365"
+libreoffice
+sumatrapdf
+vscodium.vscodium
+sagagis
+openboard
+videolan.vlc
+mozilla.firefox
+google.chrome
