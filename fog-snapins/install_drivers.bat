@@ -1,3 +1,3 @@
 @echo off
-set driversPath=\\10.10.10.10\drivers
+set driversPath=\\172.17.1.30\drivers
 pnputil /add-driver %driversPath%\*.inf /subdirs /install
